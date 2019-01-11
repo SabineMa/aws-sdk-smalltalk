@@ -1,15 +1,14 @@
 {
-	"category" : "AWS-S3",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AWS-S3",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"bucketName",
-		"service" ],
+		"service"
+	],
 	"name" : "S3Bucket",
-	"pools" : [
-		 ],
-	"super" : "Object",
-	"type" : "normal" }
+	"type" : "normal"
+}

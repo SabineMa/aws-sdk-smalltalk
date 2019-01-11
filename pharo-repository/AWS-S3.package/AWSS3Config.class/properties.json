@@ -1,14 +1,13 @@
 {
+	"commentStamp" : "",
+	"super" : "AWSConfig",
 	"category" : "AWS-S3",
 	"classinstvars" : [
-		"default" ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
 	"name" : "AWSS3Config",
-	"pools" : [
-		 ],
-	"super" : "AWSConfig",
-	"type" : "normal" }
+	"type" : "normal"
+}
