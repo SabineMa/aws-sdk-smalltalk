@@ -11,15 +11,17 @@ baseline: spec
 						file: 'ConfigurationOfJSON';
 						repository: 'http://smalltalkhub.com/mc/PharoExtras/JSON/main' ].
 						
-			spec baseline: 'NeoJSON' with: [ spec repository: 'github://svenvc/NeoJSON:v17/repository' ].
+			spec 
+				baseline: 'NeoJSON' 
+				with: [ spec repository: 'github://svenvc/NeoJSON:v17/repository' ].
 			
+			spec 
+				baseline: 'XMLParser' 
+				with: [ spec repository: 'github://pharo-contributions/XML-XMLParser:65152d3/src' ].
+			
+			 
 		 
-			spec
-				project: 'XMLParser'
-				with: [ spec
-						className: 'ConfigurationOfXMLParser';
-						versionString: #stable;
-						repository: 'http://smalltalkhub.com/mc/PharoExtras/XMLParser/main' ].
+			 
 			 	spec
 				package: 'AWS-Core';
 				package: 'AWS-DynamoDB' with: [ spec requires: #('AWS-Core') ];
