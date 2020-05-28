@@ -4,13 +4,16 @@ baseline: spec
 	spec
 		for: #common
 		do: [ 
-			spec
+			"spec
 				project: 'JSON'
 				with: [ spec
 						className: 'ConfigurationOfJSON';
 						file: 'ConfigurationOfJSON';
-						repository: 'http://smalltalkhub.com/mc/PharoExtras/JSON/main' ].
-						
+						repository: 'http://smalltalkhub.com/mc/PharoExtras/JSON/main' ]."
+			spec 
+				baseline: 'JSON' 
+				with: [ spec repository: 'github://SabineMa/JSON/src' ].
+				
 			spec 
 				baseline: 'NeoJSON' 
 				with: [ spec repository: 'github://svenvc/NeoJSON:v17/repository' ].
